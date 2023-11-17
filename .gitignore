@@ -1,0 +1,35 @@
+# Compiled and modules
+dist
+node_modules
+*.js
+*.d.ts
+.npmrc
+tsconfig.tsbuildinfo
+
+# CDK asset testing directory
+.cdk.testing
+cdk.out
+
+# Tests
+coverage
+!jest.config.js
+junit.xml
+
+# IDEs
+.idea
+.vscode
+
+# Environment
+.env.*.local
+sftp-key
+
+# Commit Hook
+.husky
+
+# Test
+coverage
+junit.xml
+
+# Yarn
+.yarn
+yarn-error.log
