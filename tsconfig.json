@@ -22,16 +22,6 @@
     "strictPropertyInitialization": false,
     "typeRoots": ["./node_modules/@types"],
     "resolveJsonModule": true,
-    "paths": {
-      "/opt/nodejs": ["lib/assets/lambda/layer/common/nodejs"],
-      "class-transformer": ["lib/assets/lambda/layer/common/nodejs/node_modules/class-transformer"],
-      "class-validator": ["lib/assets/lambda/layer/common/nodejs/node_modules/class-validator"],
-      "date-fns": ["lib/assets/lambda/layer/common/nodejs/node_modules/date-fns"],
-      "lodash": ["lib/assets/lambda/layer/common/nodejs/node_modules/lodash"],
-      "reflect-metadata": ["lib/assets/lambda/layer/common/nodejs/node_modules/reflect-metadata"],
-      "uuid": ["lib/assets/lambda/layer/common/nodejs/node_modules/uuid"],
-      "winston": ["lib/assets/lambda/layer/common/nodejs/node_modules/winston"]
-    }
   },
   "exclude": ["node_modules", "cdk.out", "**/*.spec.ts", "jest.config.ts"]
 }

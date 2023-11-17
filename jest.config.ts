@@ -1,5 +1,3 @@
-import { pathsToModuleNameMapper } from 'ts-jest';
-import { compilerOptions } from './tsconfig.json';
 
 export default {
   preset: 'ts-jest',
@@ -18,9 +16,6 @@ export default {
   setupFilesAfterEnv: ['<rootDir>/test/config/setup-env.ts'],
   roots: ['<rootDir>'],
   modulePaths: ['<rootDir>'],
-  moduleNameMapper: {
-    ...pathsToModuleNameMapper(compilerOptions.paths),
-  },
   testPathIgnorePatterns: ['node_modules', 'cdk.out'],
   globalSetup: './test/config/jest-global-setup.ts',
 };
